@@ -42,9 +42,15 @@ Inline elements will stay nested within the elements but are not effected by try
 
 3. What are the 4 areas of the box model?
 
+Content, padding, margin, and border.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+It works on the cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git makes it easier for a team to work together on the same code without constantly overlapping one another as well as being able to see what one person has done to their code compared to yours. As long as you consistently commit your work it makes it easier for a team to go back to a previous version of their work if there is ever a unknown mistake made in the code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
