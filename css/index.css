@@ -205,8 +205,53 @@ footer nav a {
 
 /*** ABOUT ***/
 
+.about-paragraph{
+    border-bottom: 1px dotted gray;
+    padding-bottom: 20px;
+}
+
 #about-hero{
     background-image: url("../img/jumbo-about.png");
     height: 150px;
     background-repeat: no-repeat;
+}
+
+#about-main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+}
+.main-boxes{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 41%;
+    align-items: flex-start;
+    margin: 30px 8px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted gray;
+}
+
+.main-box-text{
+    padding: 15px 0;
+}
+
+.button{
+    padding: 5px 15px;
+    border: 1px gray solid;
+    border-radius: 20px;
+}
+
+.button a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.bottom-p{
+    width: 58%;
+    margin: 0 auto;
+    padding: 20px 0;
 }
