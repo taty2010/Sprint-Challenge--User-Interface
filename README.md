@@ -34,7 +34,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is the reccommended tags to use in your code for better understanding. It makes it easier for people to work on an HTML document and understand what the specific section of html is, even if it's their first time viewing it and less confusing than using all div's. It also makes it easier for SEO optimization and tells it what's importnat. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Inline elements will stay nested within the elements but are not effected by trying to change the height and width. Block is basically the complete opposite and can be adjusted by height and width but tend to take up as much space as possible
 
 3. What are the 4 areas of the box model?
 
