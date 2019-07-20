@@ -238,16 +238,27 @@ footer nav a {
     padding: 15px 0;
 }
 
-.button{
-    padding: 5px 15px;
-    border: 1px gray solid;
-    border-radius: 20px;
-}
 
 .button a{
     text-decoration: none;
     color: black;
+    padding: 5px 15px;
+    border: 1px gray solid;
+    border-radius: 20px;
+    animation-name: button;
+    animation-duration: 5s;
     
+}
+
+@keyframes button{
+    from {background: white;}
+    to {background: black;}
+    from {color: black;}
+    to {color: white;}
+}
+.button a:hover {
+    background-color: black;
+    color: white;
 }
 
 .bottom-p{
