@@ -71,6 +71,33 @@ p {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+nav{
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 38px;
+}
+
+.header-hero{
+    height: 200px;
+}
+
+#index-hero{
+    background-image: url("../img/jumbo.jpg");
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +131,43 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box1{
+    background-color: teal;
+}
+
+#box2{
+    background-color: gold;
+}
+#box3{
+    background-color: cadetblue;
+}
+#box4{
+    background-color: coral;
+}
+#box5{
+    background-color: crimson;
+}
+#box6{
+    background-color: forestgreen;
+}
+#box7{
+    background-color: darkorchid;
+}
+#box8{
+    background-color: hotpink;
+}
+#box9{
+    background-color: indigo;
+}
+#box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +201,69 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    text-align: center;
+}
+
+/*** ABOUT ***/
+
+.about-paragraph{
+    border-bottom: 1px dotted gray;
+    padding-bottom: 20px;
+}
+
+#about-hero{
+    background-image: url("../img/jumbo-about.png");
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+#about-main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+}
+.main-boxes{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: 41%;
+    align-items: flex-start;
+    margin: 30px 8px;
+    padding-bottom: 15px;
+    border-bottom: 1px dotted gray;
+}
+
+.main-box-text{
+    padding: 15px 0;
+}
+
+
+.button a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 15px;
+    border: 1px gray solid;
+    border-radius: 20px;
+    animation-name: button;
+    animation-duration: 5s;
+    
+}
+
+@keyframes button{
+    from {background: white;}
+    to {background: black;}
+    from {color: black;}
+    to {color: white;}
+}
+.button a:hover {
+    background-color: black;
+    color: white;
+}
+
+.bottom-p{
+    width: 58%;
+    margin: 0 auto;
+    padding: 20px 0;
 }
