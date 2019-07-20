@@ -201,6 +201,7 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    text-align: center;
 }
 
 /*** ABOUT ***/
