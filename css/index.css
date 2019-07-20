@@ -82,6 +82,22 @@ nav{
     display:
 }
 
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 45px;
+    margin-top: 15px;
+}
+
+.header-hero{
+    width: 90%;
+    height: 200px;
+}
+
+#index-hero{
+    background-image: url(../img/jumbo.jpg);
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
