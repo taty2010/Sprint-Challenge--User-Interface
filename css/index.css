@@ -79,14 +79,13 @@ header{
 }
 
 nav{
-    display:
+    margin-top: 15px;
 }
 
 nav a {
     text-decoration: none;
     color: black;
     padding: 0 38px;
-    margin-top: 15px;
 }
 
 .header-hero{
